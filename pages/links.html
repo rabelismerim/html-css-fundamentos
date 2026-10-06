@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Exercícios de HTML e CSS: estrutura semântica, links, mídia e uma reprodução visual do Yahoo.">
+<title>Links e interação | HTML & CSS Simples</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header class="topbar">
+<div class="container">
+<a class="brand" href="../index.html">&lt;/&gt; HTML <span>& CSS</span> Simples</a>
+<nav aria-label="Navegação principal">
+<a href="../pages/estrutura.html">Estrutura</a>
+<a href="../pages/links.html">Links</a>
+<a href="../pages/midia.html">Mídia</a>
+<a href="../pages/yahoo.html">Yahoo</a>
+</nav>
+</div>
+</header>
+<main id="conteudo" class="container">
+<div class="page-heading">
+<span class="eyebrow">02 / Interação</span>
+<h1>Experimente o HTML.</h1>
+<p>Elementos nativos oferecem interação e navegação pelo teclado sem precisar de JavaScript.</p>
+</div>
+<div class="examples">
+<section class="panel">
+<h2>Detalhes e indicadores</h2>
+<details>
+<summary>Mostrar exemplo de medição</summary>
+<p>Este indicador representa 0,7 em uma escala de 0 a 1: 70%.</p>
+<label for="medicao">Progresso do exemplo</label>
+<meter id="medicao" min="0" max="1" value="0.7">70%</meter>
+</details>
+<h2>Conteúdo editável</h2>
+<p id="instrucao">Clique no texto abaixo para editar. As alterações são temporárias e desaparecem ao recarregar a página.</p>
+<div class="editable" contenteditable="true" role="textbox" aria-multiline="true" aria-label="Texto de exemplo editável" aria-describedby="instrucao">
+<mark>Este trecho está destacado.</mark> Escreva aqui e explore o atributo contenteditable.</div>
+</section>
+<aside class="panel">
+<h2>Links externos</h2>
+<p>Selecione um recurso para visitá-lo.</p>
+<nav class="link-list" aria-label="Recursos externos">
+<a href="https://www.cifraclub.com.br/">Cifra Club ↗</a>
+<a href="https://www.youtube.com/">YouTube ↗</a>
+<a href="https://www.facebook.com/">Facebook ↗</a>
+</nav>
+</aside>
+</div>
+</main>
+<footer>
+<div class="container">HTML & CSS Simples · Coleção de exercícios de desenvolvimento web.</div>
+</footer>
+</body>
+</html>

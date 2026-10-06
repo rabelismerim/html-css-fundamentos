@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Exercícios de HTML e CSS: estrutura semântica, links, mídia e uma reprodução visual do Yahoo.">
+<title>áudio e vídeo | HTML & CSS Simples</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header class="topbar">
+<div class="container">
+<a class="brand" href="../index.html">&lt;/&gt; HTML <span>& CSS</span> Simples</a>
+<nav aria-label="Navegação principal">
+<a href="../pages/estrutura.html">Estrutura</a>
+<a href="../pages/links.html">Links</a>
+<a href="../pages/midia.html">Mídia</a>
+<a href="../pages/yahoo.html">Yahoo</a>
+</nav>
+</div>
+</header>
+<main id="conteudo" class="container">
+<div class="page-heading">
+<span class="eyebrow">03 / Mídia</span>
+<h1>Som, imagem e movimento.</h1>
+<p>Arquivos reproduzidos com os controles do navegador.</p>
+</div>
+<section class="panel">
+<h2>áudio</h2>
+<audio controls preload="metadata" aria-label="áudio de exemplo Now">
+<source src="../assets/media/Now.mp3" type="audio/mpeg">Seu navegador não suporta áudio.</audio>
+<p>
+<a href="../assets/media/Now.mp3" download>Baixar áudio MP3</a>
+</p>
+</section>
+<section class="panel">
+<h2>Vídeo</h2>
+<video controls preload="metadata" aria-label="Vídeo de exemplo CatchSide">
+<source src="../assets/media/CatchSide.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video>
+<p>
+<a href="../assets/media/CatchSide.mp4" download>Baixar vídeo MP4</a>
+</p>
+<p>O arquivo original não inclui legendas ou transcrição.</p>
+</section>
+</main>
+<footer>
+<div class="container">HTML & CSS Simples · Coleção de exercícios de desenvolvimento web.</div>
+</footer>
+</body>
+</html>
